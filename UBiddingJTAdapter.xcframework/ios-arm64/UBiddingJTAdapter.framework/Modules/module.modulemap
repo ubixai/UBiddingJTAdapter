@@ -1,0 +1,6 @@
+framework module UBiddingJTAdapter {
+  umbrella header "UBiddingJTAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}
