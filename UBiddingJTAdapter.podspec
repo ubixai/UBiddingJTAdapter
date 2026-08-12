@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiddingJTAdapter'
-  s.version          = '4.2.3.1.1'
+  s.version          = '4.3.5.1.0'
   s.summary          = 'UBiddingJTAdapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   s.author           = { 'zhugq' => 'guoqiang.zhu@ubixai.com' }
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.vendored_frameworks = 'UBiddingJTAdapter.xcframework'
 
-  s.dependency 'JTAdSDK', '4.2.3.1'
+  s.dependency 'JTAdSDK', '4.3.5.1'
   s.dependency 'UBiddingAdSDK'
 end
